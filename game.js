@@ -58,4 +58,6 @@ function opcion(miOpcion) {
   console.log(resultado);
   //ganaste perdiste empataste
   console.log(resultados[jugada[cpu][miOpcion]]);
+  //opcion ganadora
+  console.log(opciones[jugada[miOpcion][cpu]]);
 }
